@@ -17,7 +17,7 @@ int main() {
         scanf("%d",&day);
     
         //decision
-    if(day>0 && day<8){
+   
 
         switch(day) {
             case 1:
@@ -41,9 +41,9 @@ int main() {
             case 7:
             printf("Sunday-Weekends");
             break;
+            default:
+            printf("Invalid Day");
         }
-    }
-    else
-    printf("Invalid Day");
+    
     return 0;
 }
